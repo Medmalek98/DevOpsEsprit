@@ -7,7 +7,7 @@ pipeline {
        stage('checkout GIT') {
             steps {
                 echo 'Pulling ...'
-                git branch: 'hatem', url: 'https://github.com/abbesimen/DevOps02.git'
+                git branch: 'master', url: 'https://github.com/Medmalek98/DevOpsEsprit'
             }
         }
         
