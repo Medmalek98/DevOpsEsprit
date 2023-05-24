@@ -23,6 +23,7 @@ import com.esprit.examen.repositories.CategorieProduitRepository;
 @RunWith(MockitoJUnitRunner.class)
 public class CategorieProduitServiceImplTest {
 
+    
     @InjectMocks
     CategorieProduitServiceImpl categorieProduitService;
 
