@@ -10,7 +10,6 @@ import com.esprit.examen.services.IProduitService;
 
 import io.swagger.annotations.Api;
 
-
 @RestController
 @CrossOrigin("*")
 @Api(tags = "Gestion des produits")
