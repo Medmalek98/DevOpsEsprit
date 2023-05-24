@@ -17,4 +17,5 @@ public interface IFournisseurService {
 	
 	void assignSecteurActiviteToFournisseur(Long idSecteurActivite, Long idFournisseur);
 
+	
 }
