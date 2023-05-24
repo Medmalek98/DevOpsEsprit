@@ -22,6 +22,7 @@ public class ReglementServiceImpl implements IReglementService {
 		return (List<Reglement>) reglementRepository.findAll();
 	}
 
+	
 	@Override
 	public Reglement addReglement(Reglement r) {
         reglementRepository.save(r);
