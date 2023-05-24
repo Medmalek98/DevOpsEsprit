@@ -17,6 +17,7 @@ public class OperateurServiceImpl implements IOperateurService {
 		return (List<Operateur>) operateurRepository.findAll();
 	}
 
+	
 	@Override
 	public Operateur addOperateur(Operateur o) {
 		operateurRepository.save(o);
