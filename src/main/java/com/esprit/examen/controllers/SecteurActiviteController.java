@@ -25,7 +25,6 @@ public class SecteurActiviteController {
 		List<SecteurActivite> list = secteurActiviteService.retrieveAllSecteurActivite();
 		return list;
 	}
-
 	// http://localhost:8089/SpringMVC/secteurActivite/retrieve-secteurActivite/8
 	@GetMapping("/retrieve-secteurActivite/{secteurActivite-id}")
 	@ResponseBody
