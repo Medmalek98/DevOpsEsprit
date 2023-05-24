@@ -12,7 +12,6 @@ import com.esprit.examen.entities.Reglement;
 import com.esprit.examen.services.IReglementService;
 
 import io.swagger.annotations.Api;
-
 @RestController
 @Api(tags = "Gestion des reglements")
 @RequestMapping("/reglement")
