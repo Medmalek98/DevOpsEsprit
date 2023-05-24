@@ -7,6 +7,7 @@ import com.esprit.examen.entities.CategorieProduit;
 
 public interface ICategorieProduitService {
 
+	
 	List<CategorieProduit> retrieveAllCategorieProduits();
 
 	CategorieProduit addCategorieProduit(CategorieProduit cp);
