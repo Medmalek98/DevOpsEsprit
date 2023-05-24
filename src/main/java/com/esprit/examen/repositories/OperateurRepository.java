@@ -8,4 +8,5 @@ import com.esprit.examen.entities.Operateur;
 @Repository
 public interface OperateurRepository extends CrudRepository<Operateur, Long> {
 
+  
 }
