@@ -44,6 +44,5 @@ public class Fournisseur implements Serializable {
     @OneToOne(cascade= CascadeType.ALL,fetch=FetchType.EAGER)
     private DetailFournisseur detailFournisseur;
     
-
 	
 }
