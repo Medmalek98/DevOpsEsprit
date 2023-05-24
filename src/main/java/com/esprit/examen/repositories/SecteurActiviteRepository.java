@@ -8,4 +8,5 @@ import com.esprit.examen.entities.SecteurActivite;
 @Repository
 public interface SecteurActiviteRepository extends CrudRepository<SecteurActivite, Long> {
 
+  
 }
