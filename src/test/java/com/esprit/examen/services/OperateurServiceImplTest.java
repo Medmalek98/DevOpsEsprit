@@ -28,6 +28,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 public class OperateurServiceImplTest {
 
+    
     @Mock
     private OperateurRepository operateurRepository;
 
