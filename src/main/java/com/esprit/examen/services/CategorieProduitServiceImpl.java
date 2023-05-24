@@ -10,7 +10,6 @@ import com.esprit.examen.repositories.CategorieProduitRepository;
 @Service
 public class CategorieProduitServiceImpl implements ICategorieProduitService {
 
-	
 	@Autowired
 	CategorieProduitRepository categorieProduitRepository;
 	@Override
