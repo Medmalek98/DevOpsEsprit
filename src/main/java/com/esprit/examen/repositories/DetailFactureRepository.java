@@ -7,4 +7,5 @@ import com.esprit.examen.entities.DetailFacture;
 @Repository
 public interface DetailFactureRepository extends JpaRepository<DetailFacture, Long> {
 
+  
 }
