@@ -8,4 +8,5 @@ import com.esprit.examen.entities.DetailFournisseur;
 @Repository
 public interface DetailFournisseurRepository  extends JpaRepository<DetailFournisseur, Long>{
 
+  
 }
